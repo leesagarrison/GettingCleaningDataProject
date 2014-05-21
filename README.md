@@ -53,20 +53,20 @@ Assumptions
 *only those variables specifically related to mean and standard deviation are retained.  Data for meanFreq are not kept as they are weighted averages of the frequency components to obtain a mean frequency, and not the mean itself.
 
 Logic
-*SET ENVIRONMENTAL/DIRECTORY INFORMATION
-*READ DATA IN
-*MERGE ALL DATA TOGETHER
-  *Merge Training data with Subject info for training data
-  *Merge Test data with subject info for test data
-  *Lastly merge the training and test data together
-*CLEAN and RESET COLUMN HEADERS to better describe the observation
-*CLEAN THE DATA
-*Remove all observations not related to mean or standard deviation
-*CLEAN THE ACTIVITY DATA IN THE FILE
-  *Set all activities to lowercase letters
-  *Replace number representation with actual activity description
-*CALCULATE AVERAGE/MEAN FOR ALL GROUPINGS (subject+activity)
-*WRITE THE TIDY DATA as .txt and .csv fiels in the working directory.
+* SET ENVIRONMENTAL/DIRECTORY INFORMATION
+* READ DATA IN
+* MERGE ALL DATA TOGETHER
+  * Merge Training data with Subject info for training data
+  * Merge Test data with subject info for test data
+  * Lastly merge the training and test data together
+* CLEAN and RESET COLUMN HEADERS to better describe the observation
+* CLEAN THE DATA
+* Remove all observations not related to mean or standard deviation
+* CLEAN THE ACTIVITY DATA IN THE FILE
+  * Set all activities to lowercase letters
+  * Replace number representation with actual activity description
+* CALCULATE AVERAGE/MEAN FOR ALL GROUPINGS (subject+activity)
+* WRITE THE TIDY DATA as .txt and .csv fiels in the working directory.
 
 
 ##Notes
